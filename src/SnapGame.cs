@@ -11,6 +11,7 @@ namespace CardGames
             Bitmap cards;
             cards = SwinGame.LoadBitmapNamed ("Cards", "Cards.png");
             SwinGame.BitmapSetCellDetails (cards, 167, 250, 13, 5, 53);      // set the cells in the bitmap to match the cards
+			SwinGame.LoadFontNamed("GameFont", "chunkfive.otf", 24);
         }
 
 		/// <summary>
@@ -51,6 +52,7 @@ namespace CardGames
 		private static void DrawGame(Snap myGame)
 		{
 			SwinGame.DrawBitmap("cardsBoard.png", 0, 0);
+			SwinGame.Drawtext(""+myGame.Score(0),Color.White,"GameFont",0,30);
 
 			// Draw the top card
 			Card top = myGame.TopCard;
