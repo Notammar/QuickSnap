@@ -55,7 +55,11 @@ namespace CardGames.GameLogic
 		public void Shuffle()
 		{
 			//TODO: implement shuffle!
+<<<<<<< HEAD
 			//copied from PassTask02
+=======
+			//Copied from PassTask2
+>>>>>>> add-automatic-card-flip
 			for(int i = 0; i < 52; i++)
 			{
 				if(_cards[i].FaceUp) _cards[i].TurnOver();
