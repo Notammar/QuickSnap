@@ -56,9 +56,13 @@ namespace CardGames.GameLogic
 		{
 			//TODO: implement shuffle!
 <<<<<<< HEAD
+<<<<<<< HEAD
 			//copied from PassTask02
 =======
 			//Copied from PassTask2
+>>>>>>> add-automatic-card-flip
+=======
+			//Copied from PassTask02
 >>>>>>> add-automatic-card-flip
 			for(int i = 0; i < 52; i++)
 			{
